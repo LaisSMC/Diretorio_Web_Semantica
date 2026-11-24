@@ -13,6 +13,8 @@
       "cargo": "Professora Associada",
       "unidade": "ice",
       "departamento": "computacao",
+      "email": "ana.silva@exemplo.edu.br",
+      "paginaPessoal": "https://anaexemplo.example.com/",
       "formacao": [
         "Doutorado em Ciência da Computação",
         "Mestrado em Informática",
@@ -29,8 +31,18 @@
       "projetos": [
         "dados-abertos"
       ],
+      "gruposPesquisa": [
+        "sistemas-inteligentes",
+        "dados-conectados"
+      ],
       "publicacoes": [
         "artigo-2024"
+      ],
+      "linksAcademicos": [
+        { "rotulo": "Currículo Lattes", "url": "https://lattes.cnpq.br/" },
+        { "rotulo": "ORCID", "url": "https://orcid.org/0000-0000-0000-0001" },
+        { "rotulo": "ResearchGate", "url": "https://www.researchgate.net/" },
+        { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/" }
       ],
       "apresentacao": "Docente fictícia dedicada à representação do conhecimento e publicação de dados conectados."
     },
@@ -41,6 +53,8 @@
       "cargo": "Professora Adjunta",
       "unidade": "ice",
       "departamento": "computacao",
+      "email": "beatriz.costa@exemplo.edu.br",
+      "paginaPessoal": "https://beatrizexemplo.example.com/",
       "formacao": [
         "Doutorado em Informática",
         "Mestrado em Sistemas de Informação"
@@ -57,9 +71,17 @@
         "dados-abertos",
         "ia-educacao"
       ],
+      "gruposPesquisa": [
+        "sistemas-inteligentes"
+      ],
       "publicacoes": [
         "artigo-2024",
         "artigo-2023"
+      ],
+      "linksAcademicos": [
+        { "rotulo": "Currículo Lattes", "url": "https://lattes.cnpq.br/" },
+        { "rotulo": "ORCID", "url": "https://orcid.org/0000-0000-0000-0002" },
+        { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/" }
       ],
       "apresentacao": "Docente fictícia interessada em inteligência artificial e tecnologias educacionais."
     },
@@ -71,6 +93,8 @@
       "unidade": "ice",
       "curso": "sistemas-informacao",
       "ingresso": 2024,
+      "email": "joao.pereira@aluno.exemplo.edu.br",
+      "paginaPessoal": "https://joaoexemplo.example.com/",
       "formacao": [
         "Bacharelado em Sistemas de Informação (em andamento)"
       ],
@@ -81,7 +105,15 @@
       "projetos": [
         "dados-abertos"
       ],
+      "gruposPesquisa": [
+        "dados-conectados"
+      ],
       "publicacoes": [],
+      "linksAcademicos": [
+        { "rotulo": "Currículo Lattes", "url": "https://lattes.cnpq.br/" },
+        { "rotulo": "GitHub", "url": "https://github.com/" },
+        { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/" }
+      ],
       "apresentacao": "Discente fictício interessado em desenvolvimento web e dados abertos."
     },
     {
@@ -92,6 +124,8 @@
       "unidade": "ice",
       "curso": "sistemas-informacao",
       "ingresso": 2023,
+      "email": "marina.oliveira@aluno.exemplo.edu.br",
+      "paginaPessoal": "https://marinaexemplo.example.com/",
       "formacao": [
         "Bacharelado em Sistemas de Informação (em andamento)"
       ],
@@ -102,13 +136,25 @@
       "projetos": [
         "ia-educacao"
       ],
+      "gruposPesquisa": [
+        "sistemas-inteligentes"
+      ],
       "publicacoes": [],
+      "linksAcademicos": [
+        { "rotulo": "Currículo Lattes", "url": "https://lattes.cnpq.br/" },
+        { "rotulo": "ORCID", "url": "https://orcid.org/0000-0000-0000-0004" },
+        { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/" }
+      ],
       "apresentacao": "Discente fictícia interessada em inteligência artificial e Web Semântica."
     }
   ],
   "projetos": {
     "dados-abertos": "Projeto Acadêmico de Dados Abertos",
     "ia-educacao": "Projeto de IA na Educação"
+  },
+  "gruposPesquisa": {
+    "sistemas-inteligentes": "Grupo de Pesquisa em Sistemas Inteligentes",
+    "dados-conectados": "Núcleo de Estudos em Dados Conectados e Web Semântica"
   },
   "areas": {
     "web-semantica": "Web Semântica",
