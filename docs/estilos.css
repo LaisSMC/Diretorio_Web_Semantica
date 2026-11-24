@@ -18,3 +18,14 @@ h1{margin:0;font-size:clamp(1.8rem,4vw,2.55rem);line-height:1.15}.role{color:var
 .social-links a{display:inline-block;padding:.45rem .7rem;border:1px solid var(--line);border-radius:8px;text-decoration:none;background:white}
 .note,.site-footer{color:var(--muted);font-size:.88rem}.site-footer{border-top:1px solid var(--line);padding:1rem 0 2rem}
 @media(max-width:720px){.profile-heading{grid-template-columns:92px 1fr;gap:1rem}.profile-photo{width:92px}.layout{grid-template-columns:1fr}.contact-list div{grid-template-columns:1fr;gap:0}}
+
+.card code {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.card code,
+.contact-list dt {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
