@@ -1,0 +1,22 @@
+[
+  {
+    "pessoa": "https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/joao",
+    "nome": "João Exemplo Pereira",
+    "tipo": "https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#Discente"
+  },
+  {
+    "pessoa": "https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/marina",
+    "nome": "Marina Exemplo Oliveira",
+    "tipo": "https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#Discente"
+  },
+  {
+    "pessoa": "https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/ana",
+    "nome": "Profa. Dra. Ana Exemplo da Silva",
+    "tipo": "https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#Docente"
+  },
+  {
+    "pessoa": "https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/beatriz",
+    "nome": "Profa. Dra. Beatriz Exemplo Costa",
+    "tipo": "https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#Docente"
+  }
+]

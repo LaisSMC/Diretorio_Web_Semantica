@@ -1,0 +1,17 @@
+[
+  {
+    "projeto": "Projeto Acadêmico de Dados Abertos",
+    "docenteNome": "Profa. Dra. Ana Exemplo da Silva",
+    "discenteNome": "João Exemplo Pereira"
+  },
+  {
+    "projeto": "Projeto Acadêmico de Dados Abertos",
+    "docenteNome": "Profa. Dra. Beatriz Exemplo Costa",
+    "discenteNome": "João Exemplo Pereira"
+  },
+  {
+    "projeto": "Projeto de IA na Educação",
+    "docenteNome": "Profa. Dra. Beatriz Exemplo Costa",
+    "discenteNome": "Marina Exemplo Oliveira"
+  }
+]

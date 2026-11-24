@@ -1,0 +1,8 @@
+PREFIX voc: <https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#>
+PREFIX ex: <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?docente ?nome ?area WHERE { ?docente a voc:Docente ; foaf:name ?nome ; voc:atuaEm ?a . ?a skos:prefLabel ?area . FILTER(STR(?area) = "Web Semântica") } ORDER BY ?nome

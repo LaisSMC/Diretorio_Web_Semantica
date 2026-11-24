@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix voc: <https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://SEU-USUARIO.github.io/diretorio-web-semantica/> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+
+voc:anoIngresso a owl:DatatypeProperty ;
+    rdfs:domain voc:Discente ;
+    rdfs:range xsd:gYear .
+
+voc:anoPublicacao a owl:DatatypeProperty ;
+    rdfs:domain voc:Publicacao ;
+    rdfs:range xsd:gYear .
+
+voc:atuaEm a owl:ObjectProperty ;
+    rdfs:label "atuaEm"@pt ;
+    rdfs:domain voc:Pessoa ;
+    rdfs:range voc:Area .
+
+voc:autorDe a owl:ObjectProperty ;
+    rdfs:label "autorDe"@pt ;
+    rdfs:domain voc:Pessoa ;
+    rdfs:range voc:Publicacao .
+
+voc:lotadoEm a owl:ObjectProperty ;
+    rdfs:label "lotadoEm"@pt ;
+    rdfs:domain voc:Docente ;
+    rdfs:range voc:Departamento .
+
+voc:matriculadoEm a owl:ObjectProperty ;
+    rdfs:label "matriculadoEm"@pt ;
+    rdfs:domain voc:Discente ;
+    rdfs:range voc:Curso .
+
+voc:ofereceCurso a owl:ObjectProperty ;
+    rdfs:label "ofereceCurso"@pt ;
+    rdfs:domain voc:Unidade ;
+    rdfs:range voc:Curso .
+
+voc:participaDe a owl:ObjectProperty ;
+    rdfs:label "participaDe"@pt ;
+    rdfs:domain voc:Pessoa ;
+    rdfs:range voc:Projeto .
+
+voc:possuiDepartamento a owl:ObjectProperty ;
+    rdfs:label "possuiDepartamento"@pt ;
+    rdfs:domain voc:Unidade ;
+    rdfs:range voc:Departamento .
+
+voc:vinculadoA a owl:ObjectProperty ;
+    rdfs:label "vinculadoA"@pt ;
+    rdfs:domain voc:Pessoa ;
+    rdfs:range voc:Unidade .
+
+voc:Area a owl:Class ;
+    rdfs:label "Área de conhecimento"@pt .
+
+voc:Docente a owl:Class ;
+    rdfs:label "Docente"@pt ;
+    rdfs:subClassOf voc:Pessoa ;
+    owl:disjointWith voc:Discente .
+
+voc:Projeto a owl:Class ;
+    rdfs:label "Projeto"@pt .
+
+voc:Curso a owl:Class ;
+    rdfs:label "Curso"@pt .
+
+voc:Departamento a owl:Class ;
+    rdfs:label "Departamento"@pt .
+
+voc:Publicacao a owl:Class ;
+    rdfs:label "Publicação"@pt .
+
+voc:Discente a owl:Class ;
+    rdfs:label "Discente"@pt ;
+    rdfs:subClassOf voc:Pessoa .
+
+voc:Unidade a owl:Class ;
+    rdfs:label "Unidade acadêmica"@pt .
+
+voc:Pessoa a owl:Class ;
+    rdfs:label "Pessoa acadêmica"@pt .
+

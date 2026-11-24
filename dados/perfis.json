@@ -1,0 +1,136 @@
+{
+  "instituicao": {
+    "nome": "Universidade Exemplo",
+    "unidade": "Instituto de Ciências Exatas",
+    "departamento": "Departamento de Computação",
+    "curso": "Sistemas de Informação"
+  },
+  "pessoas": [
+    {
+      "id": "ana",
+      "tipo": "Docente",
+      "nome": "Profa. Dra. Ana Exemplo da Silva",
+      "cargo": "Professora Associada",
+      "unidade": "ice",
+      "departamento": "computacao",
+      "formacao": [
+        "Doutorado em Ciência da Computação",
+        "Mestrado em Informática",
+        "Graduação em Sistemas de Informação"
+      ],
+      "areas": [
+        "web-semantica",
+        "dados-abertos"
+      ],
+      "disciplinas": [
+        "Web Semântica",
+        "Banco de Dados"
+      ],
+      "projetos": [
+        "dados-abertos"
+      ],
+      "publicacoes": [
+        "artigo-2024"
+      ],
+      "apresentacao": "Docente fictícia dedicada à representação do conhecimento e publicação de dados conectados."
+    },
+    {
+      "id": "beatriz",
+      "tipo": "Docente",
+      "nome": "Profa. Dra. Beatriz Exemplo Costa",
+      "cargo": "Professora Adjunta",
+      "unidade": "ice",
+      "departamento": "computacao",
+      "formacao": [
+        "Doutorado em Informática",
+        "Mestrado em Sistemas de Informação"
+      ],
+      "areas": [
+        "inteligencia-artificial",
+        "web-semantica"
+      ],
+      "disciplinas": [
+        "Inteligência Artificial",
+        "Engenharia de Software"
+      ],
+      "projetos": [
+        "dados-abertos",
+        "ia-educacao"
+      ],
+      "publicacoes": [
+        "artigo-2024",
+        "artigo-2023"
+      ],
+      "apresentacao": "Docente fictícia interessada em inteligência artificial e tecnologias educacionais."
+    },
+    {
+      "id": "joao",
+      "tipo": "Discente",
+      "nome": "João Exemplo Pereira",
+      "cargo": "Graduando em Sistemas de Informação",
+      "unidade": "ice",
+      "curso": "sistemas-informacao",
+      "ingresso": 2024,
+      "formacao": [
+        "Bacharelado em Sistemas de Informação (em andamento)"
+      ],
+      "areas": [
+        "dados-abertos",
+        "desenvolvimento-web"
+      ],
+      "projetos": [
+        "dados-abertos"
+      ],
+      "publicacoes": [],
+      "apresentacao": "Discente fictício interessado em desenvolvimento web e dados abertos."
+    },
+    {
+      "id": "marina",
+      "tipo": "Discente",
+      "nome": "Marina Exemplo Oliveira",
+      "cargo": "Graduanda em Sistemas de Informação",
+      "unidade": "ice",
+      "curso": "sistemas-informacao",
+      "ingresso": 2023,
+      "formacao": [
+        "Bacharelado em Sistemas de Informação (em andamento)"
+      ],
+      "areas": [
+        "inteligencia-artificial",
+        "web-semantica"
+      ],
+      "projetos": [
+        "ia-educacao"
+      ],
+      "publicacoes": [],
+      "apresentacao": "Discente fictícia interessada em inteligência artificial e Web Semântica."
+    }
+  ],
+  "projetos": {
+    "dados-abertos": "Projeto Acadêmico de Dados Abertos",
+    "ia-educacao": "Projeto de IA na Educação"
+  },
+  "areas": {
+    "web-semantica": "Web Semântica",
+    "dados-abertos": "Dados Abertos",
+    "inteligencia-artificial": "Inteligência Artificial",
+    "desenvolvimento-web": "Desenvolvimento Web"
+  },
+  "publicacoes": {
+    "artigo-2024": {
+      "titulo": "Integração Semântica de Dados Acadêmicos (publicação fictícia)",
+      "ano": 2024,
+      "autores": [
+        "ana",
+        "beatriz"
+      ]
+    },
+    "artigo-2023": {
+      "titulo": "Inteligência Artificial em Ambientes Educacionais (publicação fictícia)",
+      "ano": 2023,
+      "autores": [
+        "beatriz"
+      ]
+    }
+  }
+}
