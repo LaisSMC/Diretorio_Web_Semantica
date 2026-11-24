@@ -48,3 +48,23 @@
 
 **Explicação:** Recupera docentes e discentes pela mesma Unidade via voc:vinculadoA.
 
+## Detalhamento das classes e propriedades utilizadas por consulta
+
+1. **Consulta 01 (`consulta01.rq`):**
+   * **Classes:** `voc:Docente`, `voc:Departamento`.
+   * **Propriedades:** `foaf:name` (nome do docente), `voc:lotadoEm` (vincula o docente ao departamento) e `rdfs:label` (rótulo do departamento).
+2. **Consulta 02 (`consulta02.rq`):**
+   * **Classes:** `voc:Discente`, `voc:Curso`.
+   * **Propriedades:** `foaf:name` (nome do discente), `voc:matriculadoEm` (vincula o discente ao curso), `voc:anoIngresso` (opcional, via `OPTIONAL`) e `rdfs:label` (filtro pelo nome do curso `"Sistemas de Informação"`).
+3. **Consulta 03 (`consulta03.rq`):**
+   * **Classes:** `voc:Docente`, `voc:Area`.
+   * **Propriedades:** `foaf:name` (nome do docente), `voc:atuaEm` (vincula o docente à área de pesquisa) e `skos:prefLabel` (filtro pelo rótulo controlado `"Web Semântica"`).
+4. **Consulta 04 (`consulta04.rq` — relacionamento entre múltiplas entidades):**
+   * **Classes:** `voc:Docente`, `voc:Discente`, `voc:Projeto`.
+   * **Propriedades:** `voc:participaDe` (aplicada simultaneamente a um indivíduo `voc:Docente` e a um indivíduo `voc:Discente` apontando para o mesmo recurso `voc:Projeto`), `foaf:name` (nomes de ambos) e `rdfs:label` (título do projeto).
+5. **Consulta 05 (`consulta05.rq` — relacionamento entre múltiplas entidades e coautoria):**
+   * **Classes:** `voc:Docente`, `voc:Publicacao`, `voc:Pessoa`.
+   * **Propriedades:** `voc:autorDe` (recupera as publicações da docente filtrada e, em um bloco `OPTIONAL`, busca outros recursos `voc:Pessoa` ligados à mesma publicação com filtro `?coautor != ?docente`), `dcterms:title`, `voc:anoPublicacao` e `foaf:name`.
+6. **Consulta 06 (`consulta06.rq` — consulta polimórfica pela superclasse):**
+   * **Classes:** `voc:Pessoa` (recupera instâncias de `voc:Docente` e `voc:Discente` quando combinada com a hierarquia `rdfs:subClassOf` da ontologia), `voc:Unidade`.
+   * **Propriedades:** `voc:vinculadoA` (liga a pessoa à unidade acadêmica), `rdf:type` (identifica o tipo específico de vínculo), `foaf:name` e `rdfs:label` (filtro `"Instituto de Ciências Exatas"`).

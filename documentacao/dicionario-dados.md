@@ -23,3 +23,8 @@
 | voc:atuaEm | objeto Pessoa→Area | Área de pesquisa ou interesse |
 | voc:participaDe | objeto Pessoa→Projeto | Participação em projeto |
 | voc:autorDe | objeto Pessoa→Publicacao | Autoria de publicação |
+| pessoa.email | URI / string | E-mail institucional de contato (`foaf:mbox`) |
+| pessoa.paginaPessoal | URI | Endereço da página pessoal (`foaf:homepage`) |
+| pessoa.gruposPesquisa | URI[] | Grupos ou núcleos de pesquisa integrados pela pessoa |
+| pessoa.linksAcademicos | objeto[] | Lista de perfis externos (`rotulo` e `url`, mapeados via `rdfs:seeAlso`) |
+| voc:integraGrupo | objeto Pessoa→GrupoPesquisa | Vínculo entre pessoa e grupo de pesquisa |
