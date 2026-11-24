@@ -6,7 +6,7 @@
 
 **Atualização:** 2026-11-14.
 
-**URIs:** base `https://SEU-USUARIO.github.io/diretorio-web-semantica/` (substituir pelo endereço real). Ex.: `recurso/pessoa/ana`. A URI resolve para uma página HTML; a representação RDF do conjunto é `dados.ttl`. Não há negociação de conteúdo RDF por URI individual, limitação explicitada.
+**URIs:** base `https://LaisSMC.github.io/Diretorio-Web-Semantica/` (substituir pelo endereço real). Ex.: `recurso/pessoa/ana`. A URI resolve para uma página HTML; a representação RDF do conjunto é `dados.ttl`. Não há negociação de conteúdo RDF por URI individual, limitação explicitada.
 
 **Três recursos externos:** `http://dbpedia.org/resource/Semantic_Web`, `http://dbpedia.org/resource/Open_data`, `http://dbpedia.org/resource/Artificial_intelligence`. São recursos externos de tópicos conectados por `rdfs:seeAlso`, não afirmações de identidade. Verificar resolução das URLs ao publicar.
 

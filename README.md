@@ -3,14 +3,13 @@
 Trabalho acadêmico demonstrativo, baseado nos modelos HTML/CSS fornecidos pelo professor. **Dados de pessoas, projetos e publicações são fictícios.**
 
 ## Integrantes
-- [PREENCHER INTEGRANTE 1]
-- [PREENCHER INTEGRANTE 2]
-- [PREENCHER INTEGRANTE 3]
+- Hugo de Souza Frisch
+- Laís de Souza Martins Cano
 
 ## Endereços (preencher após publicar)
-- Site: https://SEU-USUARIO.github.io/diretorio-web-semantica/
-- RDF: https://SEU-USUARIO.github.io/diretorio-web-semantica/dados.ttl
-- Ontologia: https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia.owl
+- Site: https://LaisSMC.github.io/Diretorio-Web-Semantica/
+- RDF: https://LaisSMC.github.io/Diretorio-Web-Semantica/dados.ttl
+- Ontologia: https://LaisSMC.github.io/Diretorio-Web-Semantica/ontologia.owl
 
 ## Execução local
 1. Instale Python 3.10+.
@@ -19,8 +18,8 @@ Trabalho acadêmico demonstrativo, baseado nos modelos HTML/CSS fornecidos pelo 
 4. Para consultas: `python -m pip install rdflib` e `python scripts/testar.py`.
 
 ## Publicação GitHub Pages
-1. Crie repositório público `diretorio-web-semantica`.
-2. Substitua `SEU-USUARIO` em `docs/dados.ttl`, `docs/ontologia.owl`, `ontologia/dados.ttl`, `ontologia/ontologia.owl` e na documentação pelo seu usuário GitHub.
+1. Crie repositório público `Diretorio-Web-Semantica`.
+2. Substitua `LaisSMC` em `docs/dados.ttl`, `docs/ontologia.owl`, `ontologia/dados.ttl`, `ontologia/ontologia.owl` e na documentação pelo seu usuário GitHub.
 3. Faça commit e push de toda a pasta do projeto.
 4. No GitHub: Settings → Pages → Deploy from a branch → `main` → `/docs` → Save.
 5. Teste as URLs públicas, os quatro perfis, RDF e OWL.

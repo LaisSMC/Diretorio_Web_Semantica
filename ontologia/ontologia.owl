@@ -1,10 +1,10 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix voc: <https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#> .
+@prefix voc: <https://LaisSMC.github.io/Diretorio-Web-Semantica/ontologia/ontologia.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
 
 voc:anoIngresso a owl:DatatypeProperty ;
 	rdfs:domain voc:Discente ;

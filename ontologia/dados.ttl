@@ -3,129 +3,129 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix voc: <https://SEU-USUARIO.github.io/diretorio-web-semantica/ontologia/ontologia.owl#> .
+@prefix voc: <https://LaisSMC.github.io/Diretorio-Web-Semantica/ontologia/ontologia.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/ana> a voc:Docente ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/ana> a voc:Docente ;
 	foaf:name "Profa. Dra. Ana Exemplo da Silva" ;
-	voc:atuaEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/dados-abertos>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/web-semantica> ;
-	voc:autorDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/publicacao/artigo-2024> ;
-	voc:lotadoEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/departamento/computacao> ;
-	voc:participaDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/dados-abertos> ;
-	voc:vinculadoA <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/unidade/ice> ;
+	voc:atuaEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/dados-abertos>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/web-semantica> ;
+	voc:autorDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/publicacao/artigo-2024> ;
+	voc:lotadoEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/departamento/computacao> ;
+	voc:participaDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/dados-abertos> ;
+	voc:vinculadoA <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/unidade/ice> ;
 	schema:description "Docente fictícia dedicada à representação do conhecimento e publicação de dados conectados."@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/beatriz> a voc:Docente ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/beatriz> a voc:Docente ;
 	foaf:name "Profa. Dra. Beatriz Exemplo Costa" ;
-	voc:atuaEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/inteligencia-artificial>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/web-semantica> ;
-	voc:autorDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/publicacao/artigo-2023>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/publicacao/artigo-2024> ;
-	voc:lotadoEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/departamento/computacao> ;
-	voc:participaDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/dados-abertos>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/ia-educacao> ;
-	voc:vinculadoA <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/unidade/ice> ;
+	voc:atuaEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/inteligencia-artificial>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/web-semantica> ;
+	voc:autorDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/publicacao/artigo-2023>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/publicacao/artigo-2024> ;
+	voc:lotadoEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/departamento/computacao> ;
+	voc:participaDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/dados-abertos>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/ia-educacao> ;
+	voc:vinculadoA <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/unidade/ice> ;
 	schema:description "Docente fictícia interessada em inteligência artificial e tecnologias educacionais."@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/joao> a voc:Discente ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/joao> a voc:Discente ;
 	foaf:name "João Exemplo Pereira" ;
 	voc:anoIngresso "2024"^^xsd:gYear ;
-	voc:atuaEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/dados-abertos>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/desenvolvimento-web> ;
-	voc:matriculadoEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/curso/sistemas-informacao> ;
-	voc:participaDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/dados-abertos> ;
-	voc:vinculadoA <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/unidade/ice> ;
+	voc:atuaEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/dados-abertos>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/desenvolvimento-web> ;
+	voc:matriculadoEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/curso/sistemas-informacao> ;
+	voc:participaDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/dados-abertos> ;
+	voc:vinculadoA <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/unidade/ice> ;
 	schema:description "Discente fictício interessado em desenvolvimento web e dados abertos."@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/marina> a voc:Discente ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/marina> a voc:Discente ;
 	foaf:name "Marina Exemplo Oliveira" ;
 	voc:anoIngresso "2023"^^xsd:gYear ;
-	voc:atuaEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/inteligencia-artificial>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/web-semantica> ;
-	voc:matriculadoEm <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/curso/sistemas-informacao> ;
-	voc:participaDe <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/ia-educacao> ;
-	voc:vinculadoA <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/unidade/ice> ;
+	voc:atuaEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/inteligencia-artificial>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/web-semantica> ;
+	voc:matriculadoEm <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/curso/sistemas-informacao> ;
+	voc:participaDe <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/ia-educacao> ;
+	voc:vinculadoA <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/unidade/ice> ;
 	schema:description "Discente fictícia interessada em inteligência artificial e Web Semântica."@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/desenvolvimento-web> a voc:Area ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/desenvolvimento-web> a voc:Area ;
 	skos:prefLabel "Desenvolvimento Web"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/publicacao/artigo-2023> a voc:Publicacao ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/publicacao/artigo-2023> a voc:Publicacao ;
 	dcterms:title "Inteligência Artificial em Ambientes Educacionais (publicação fictícia)"@pt ;
 	voc:anoPublicacao "2023"^^xsd:gYear .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/dados-abertos> a voc:Area ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/dados-abertos> a voc:Area ;
 	rdfs:seeAlso <http://dbpedia.org/resource/Open_data> ;
 	skos:prefLabel "Dados Abertos"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/inteligencia-artificial> a voc:Area ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/inteligencia-artificial> a voc:Area ;
 	rdfs:seeAlso <http://dbpedia.org/resource/Artificial_intelligence> ;
 	skos:prefLabel "Inteligência Artificial"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/ia-educacao> a voc:Projeto ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/ia-educacao> a voc:Projeto ;
 	rdfs:label "Projeto de IA na Educação"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/publicacao/artigo-2024> a voc:Publicacao ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/publicacao/artigo-2024> a voc:Publicacao ;
 	dcterms:title "Integração Semântica de Dados Acadêmicos (publicação fictícia)"@pt ;
 	voc:anoPublicacao "2024"^^xsd:gYear .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/area/web-semantica> a voc:Area ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/area/web-semantica> a voc:Area ;
 	rdfs:seeAlso <http://dbpedia.org/resource/Semantic_Web> ;
 	skos:prefLabel "Web Semântica"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/curso/sistemas-informacao> a voc:Curso ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/curso/sistemas-informacao> a voc:Curso ;
 	rdfs:label "Sistemas de Informação"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/departamento/computacao> a voc:Departamento ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/departamento/computacao> a voc:Departamento ;
 	rdfs:label "Departamento de Computação"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/projeto/dados-abertos> a voc:Projeto ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/projeto/dados-abertos> a voc:Projeto ;
 	rdfs:label "Projeto Acadêmico de Dados Abertos"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/unidade/ice> a voc:Unidade ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/unidade/ice> a voc:Unidade ;
 	rdfs:label "Instituto de Ciências Exatas"@pt ;
-	voc:ofereceCurso <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/curso/sistemas-informacao> ;
-	voc:possuiDepartamento <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/departamento/computacao> .
+	voc:ofereceCurso <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/curso/sistemas-informacao> ;
+	voc:possuiDepartamento <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/departamento/computacao> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/sistemas-inteligentes> a voc:GrupoPesquisa ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/sistemas-inteligentes> a voc:GrupoPesquisa ;
 	rdfs:label "Grupo de Pesquisa em Sistemas Inteligentes"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/dados-conectados> a voc:GrupoPesquisa ;
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/dados-conectados> a voc:GrupoPesquisa ;
 	rdfs:label "Núcleo de Estudos em Dados Conectados e Web Semântica"@pt .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/ana>
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/ana>
 	foaf:mbox <mailto:ana.silva@exemplo.edu.br> ;
 	foaf:homepage <https://anaexemplo.example.com/> ;
-	voc:integraGrupo <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/sistemas-inteligentes>,
-		<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/dados-conectados> ;
+	voc:integraGrupo <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/sistemas-inteligentes>,
+		<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/dados-conectados> ;
 	rdfs:seeAlso <https://lattes.cnpq.br/>,
 		<https://orcid.org/0000-0000-0000-0001>,
 		<https://www.researchgate.net/>,
 		<https://www.linkedin.com/> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/beatriz>
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/beatriz>
 	foaf:mbox <mailto:beatriz.costa@exemplo.edu.br> ;
 	foaf:homepage <https://beatrizexemplo.example.com/> ;
-	voc:integraGrupo <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/sistemas-inteligentes> ;
+	voc:integraGrupo <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/sistemas-inteligentes> ;
 	rdfs:seeAlso <https://lattes.cnpq.br/>,
 		<https://orcid.org/0000-0000-0000-0002>,
 		<https://www.linkedin.com/> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/joao>
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/joao>
 	foaf:mbox <mailto:joao.pereira@aluno.exemplo.edu.br> ;
 	foaf:homepage <https://joaoexemplo.example.com/> ;
-	voc:integraGrupo <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/dados-conectados> ;
+	voc:integraGrupo <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/dados-conectados> ;
 	rdfs:seeAlso <https://lattes.cnpq.br/>,
 		<https://github.com/>,
 		<https://www.linkedin.com/> .
 
-<https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/pessoa/marina>
+<https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/pessoa/marina>
 	foaf:mbox <mailto:marina.oliveira@aluno.exemplo.edu.br> ;
 	foaf:homepage <https://marinaexemplo.example.com/> ;
-	voc:integraGrupo <https://SEU-USUARIO.github.io/diretorio-web-semantica/recurso/grupo/sistemas-inteligentes> ;
+	voc:integraGrupo <https://LaisSMC.github.io/Diretorio-Web-Semantica/recurso/grupo/sistemas-inteligentes> ;
 	rdfs:seeAlso <https://lattes.cnpq.br/>,
 		<https://orcid.org/0000-0000-0000-0004>,
 		<https://www.linkedin.com/> .
